@@ -1,25 +1,27 @@
 ## Install
 
-```
+```bash
 npm install -g @cthru/devsql
 ```
 
 ## Use
 
 dbmigration.json
-```
+
+```json
 {
-  host: '192.168.197.128',
-  user: 'zhaojun',
-  password: 'zhaojun',
-  database: 'package_v1',
+  host: 'dbhost.com',
+  user: 'dbuser',
+  password: 'dbpass',
+  database: 'database',
   tables: ['table1', 'table2'],
   extendedInsert: true,
   addDropTable: true,
   addLocks: true,
   disableKeys: true
 }
-
 ```
 
-`devsql dbmigration.json`
+`devsql dbmigration.json`  
+will result in  
+`dbmigration.date_time.sql`
