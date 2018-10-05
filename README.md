@@ -10,15 +10,15 @@ dbmigration.json
 
 ```json
 {
-  host: 'dbhost.com',
-  user: 'dbuser',
-  password: 'dbpass',
-  database: 'database',
-  tables: ['table1', 'table2'],
-  extendedInsert: true,
-  addDropTable: true,
-  addLocks: true,
-  disableKeys: true
+  "host": "dbhost.com",
+  "user": "dbuser",
+  "password": "dbpass",
+  "database": "database",
+  "tables": ["table1", "table2"],
+  "extendedInsert": true,
+  "addDropTable": true,
+  "addLocks": true,
+  "disableKeys": true
 }
 ```
 
